@@ -44,9 +44,6 @@ export default function Home() {
             </div>
 
           </div>
-          <div className={`flex flex-col sm:flex-row 2xl:flex-col gap-2 my-4 w-full sm:w-auto`}>
-            <button className='bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded-full'>Saiba mais</button>
-          </div>
         </div>
       </div>
 
@@ -63,9 +60,6 @@ export default function Home() {
             <div className='flex items-center gap-8 flex-col sm:flex-row justify-around sm:justify-start'>
               <Image src={rocket} alt='Rocket' />
             </div>
-          </div>
-          <div className='flex flex-col gap-2'>
-            <button className='bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded-full'>Saiba mais</button>
           </div>
         </div>
       </div>
