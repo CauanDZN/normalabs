@@ -3,30 +3,28 @@
 import Image from 'next/image'
 import Header from '@/components/Header'
 import normalabs from '../../public/normalabs.png'
+import normalabsbranco from '../../public/normalabs-branco-total.png'
 import rocket from '../../public/rocket.png'
-import { KnowMore } from '@/components/KnowMore'
-import { At, MapPin, WhatsappLogo } from '@phosphor-icons/react'
+import { At, InstagramLogo, LinkedinLogo, MapPin, WhatsappLogo } from '@phosphor-icons/react'
+import ReactPlayer from 'react-player'
 
 export default function Home() {
   return (
     <>
       <Header />
       <div className='items-center justify-center flex flex-wrap bg-orange-600 w-full p-4'>
-        <Image src={normalabs} alt='Foto da matrícula' />
-        <Image src={rocket} alt='Foto da matrícula' />
+        <Image src={normalabsbranco} alt='Foto da matrícula' width={300} />
       </div>
 
       <div className='items-center justify-center flex flex-wrap bg-white w-full gap-2'>
         <div className="flex justify-between items-center gap-4 p-20 w-full max-w-6xl 2xl:flex-row flex-col">
           <div>
-            
+            <div>
+            <ReactPlayer url='https://www.youtube.com/watch?v=gA6xGM9wpHo' />
+            </div>
           </div>
           <div className={`flex flex-col sm:flex-row 2xl:flex-col gap-2 my-4 w-full sm:w-auto`}>
             <button className='bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded-full'>Saiba Mais</button>
-            <button className='bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded-full'>Graduação</button>
-            <button className='bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded-full'>Pós</button>
-            <button className='bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded-full'>Matricule-se</button>
-            <button className='bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded-full'>Contatos</button>
           </div>
         </div>
       </div>
@@ -71,23 +69,6 @@ export default function Home() {
       </div>
 
       <div className='items-center justify-center flex flex-wrap bg-orange-600 w-full p-4 gap-2'>
-        <div className="flex justify-between items-center p-12 w-full max-w-6xl 2xl:flex-row flex-col">
-          <div>
-            <h1 className='text-4xl font-medium text-white'>Matricule-se</h1>
-            <p className='text-sm font-normal text-white whitespace-pre-line'>
-              Transforme sua vida com a gente. <br />
-              Cursos flexíveis, suporte 24 horas e excelência acadêmica.  <br />
-              Comece sua jornada de sucesso agora mesmo!
-            </p>
-          </div>
-          <div className='flex flex-row gap-2'>
-            <button className='bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded-full'>Matricule-se</button>
-          </div>
-
-        </div>
-      </div>
-
-      <div className='items-center justify-center flex flex-wrap bg-orange-600 w-full p-4 gap-2'>
         <div className='flex flex-col p-12 w-full max-w-6xl gap-8'>
           <div>
             <h1 className='text-4xl font-medium text-white'>Contatos</h1>
@@ -103,12 +84,12 @@ export default function Home() {
               <p className='text-sm text-white'>Av. Antônio Sales 3410, Escritório Central, Fortaleza, Ceará 60135-102, BR</p>
             </div>
             <div className='flex flex-row gap-2 items-center'>
-              <WhatsappLogo size={24} color='#FFFFFF' weight='fill' />
-              <p className='text-sm text-white'>(85) 99151-0315</p>
+              <LinkedinLogo size={24} color='#FFFFFF' weight='fill' />
+              <p className='text-sm text-white'>Normalabs Hub</p>
             </div>
             <div className='flex flex-row gap-2 items-center'>
               <At size={24} color='#FFFFFF' weight='regular' />
-              <p className='text-sm text-white'>polo.maracanau@fatecie.edu.br</p>
+              <p className='text-sm text-white'>normalabs.analise@normatel.com.br</p>
             </div>
           </div>
         </div>
