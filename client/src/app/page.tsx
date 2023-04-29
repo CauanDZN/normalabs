@@ -33,7 +33,7 @@ export default function Home() {
             <LiteYouTubeEmbed
               aspectHeight={9}
               aspectWidth={16}
-              id={video_id}
+              id="gA6xGM9wpHo"
               title="Normalabs"
             />
             </div>
