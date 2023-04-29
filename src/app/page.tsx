@@ -19,7 +19,7 @@ export default function Home() {
       <div className='items-center justify-center flex flex-wrap bg-white w-full gap-2'>
         <div className="flex justify-between items-center gap-4 p-20 w-full max-w-6xl 2xl:flex-row flex-col">
           <div>
-            <KnowMore />
+            
           </div>
           <div className={`flex flex-col sm:flex-row 2xl:flex-col gap-2 my-4 w-full sm:w-auto`}>
             <button className='bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded-full'>Saiba Mais</button>
@@ -100,7 +100,7 @@ export default function Home() {
           <div className='flex flex-col 2xl:flex-row gap-6 items-center sm:items-start'>
             <div className='flex flex-row gap-2 items-center'>
               <MapPin size={24} color='#FFFFFF' weight='fill' />
-              <p className='text-sm text-white'>Business Place, Torre 1, Sala 507 Avenida I Nº57 - Jereissati I CEP: 61900410</p>
+              <p className='text-sm text-white'>Av. Antônio Sales 3410, Escritório Central, Fortaleza, Ceará 60135-102, BR</p>
             </div>
             <div className='flex flex-row gap-2 items-center'>
               <WhatsappLogo size={24} color='#FFFFFF' weight='fill' />

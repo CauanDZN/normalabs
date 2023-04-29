@@ -22,19 +22,10 @@ const Header = () => {
         <nav className='hidden lg:block'>
           <ul className="flex">
             <li className="mx-2">
-              <a href="/graduacao">Graduação</a>
+              <a href="https://www.instagram.com/normalabs.hub/">Conheça-nos</a>
             </li>
             <li className="mx-2">
-              <a href="/pos">Pós-Graduação</a>
-            </li>
-            <li className="mx-2">
-              <a href="/matricule-se">Matricule-se</a>
-            </li>
-            <li className="mx-2">
-              <a href="/saiba-mais">Saiba Mais</a>
-            </li>
-            <li className="mx-2">
-              <a href="/contatos">Contatos</a>
+              <a href="https://www.normatel.com.br/">Normatel</a>
             </li>
           </ul>
         </nav>
@@ -55,19 +46,10 @@ const Header = () => {
         >
           <ul className="flex flex-col text-center">
             <li className="mx-2 p-2 hover:underline">
-              <a href="/graduacao">Graduação</a>
+              <a href="https://www.instagram.com/normalabs.hub/">Conheça-nos</a>
             </li>
             <li className="mx-2 p-2 hover:underline">
-              <a href="/pos">Pós-Graduação</a>
-            </li>
-            <li className="mx-2 p-2 hover:underline">
-              <a href="/matricule-se">Matricule-se</a>
-            </li>
-            <li className="mx-2 p-2 hover:underline">
-              <a href="/saiba-mais">Saiba Mais</a>
-            </li>
-            <li className="mx-2 p-2 hover:underline">
-              <a href="/contatos">Contatos</a>
+              <a href="https://www.normatel.com.br/">Normatel</a>
             </li>
           </ul>
         </nav>
