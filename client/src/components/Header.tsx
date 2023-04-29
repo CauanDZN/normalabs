@@ -22,10 +22,10 @@ const Header = () => {
         <nav className='hidden lg:block'>
           <ul className="flex">
             <li className="mx-2">
-              <a href="https://www.instagram.com/normalabs.hub/">Conheça-nos</a>
+              <a href="https://www.instagram.com/normalabs.hub/">Instagram</a>
             </li>
             <li className="mx-2">
-              <a href="https://www.normatel.com.br/">Normatel</a>
+              <a href="https://www.linkedin.com/company/normalabs-hub">LinkedIn</a>
             </li>
           </ul>
         </nav>

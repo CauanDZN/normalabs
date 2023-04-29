@@ -7,6 +7,7 @@ import normalabsbranco from '../../public/normalabs-branco-total.png'
 import equipe from '../../public/equipe.png'
 import analista from '../../public/analista.png'
 import rocket from '../../public/rocket.png'
+import prontos from '../../public/prontos.png'
 import { At, InstagramLogo, LinkedinLogo, MapPin, WhatsappLogo } from '@phosphor-icons/react'
 import LiteYouTubeEmbed from "react-lite-youtube-embed"
 import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css"
@@ -27,15 +28,15 @@ export default function Home() {
       </div>
 
       <div className='items-center justify-center flex flex-wrap bg-white w-full gap-2'>
-        <div className="flex justify-between items-center gap-4 p-20 w-full max-w-6xl 2xl:flex-row flex-col">
-          <div className={`flex flex-col sm:flex-row 2xl:flex-col gap-2 my-4 sm:w-auto`}>
-            <div className='w-full'>
-            <LiteYouTubeEmbed
-              aspectHeight={9}
-              aspectWidth={16}
-              id="gA6xGM9wpHo"
+        <div className="flex justify-around items-center gap-4 p-6 max-w-6xl 2xl:flex-row flex-col">
+          <div className={`flex flex-col sm:flex-row 2xl:flex-col gap-2 my-2 sm:w-auto`}>
+            <div className='w-92 aspect-video'>
+            <iframe
+              src={"https://www.youtube.com/embed/" + video_id}
               title="Normalabs"
-            />
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
             </div>
           </div>
           <div className={`flex flex-col sm:flex-row 2xl:flex-col gap-2 my-4 w-full sm:w-auto`}>
@@ -109,6 +110,38 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <form className='items-center justify-center flex flex-wrap bg-orange-600 w-full p-4'>
+      <div className="max-w-xs my-2 overflow-hidden rounded shadow-lg">
+        <div className="px-4 py-6">
+          <div className="mb-2 text-xl text-white font-bold">Newsletter</div>
+          <form className="flex flex-col">
+            <label htmlFor="name" className="mb-2 text-white">Nome</label>
+            <input
+              className="mb-4 border-b-2 p-4"
+              id="name"
+              name="name"
+              type="text"
+              required
+            />
+            <label htmlFor="email" className="mb-2 text-white">E-mail</label>
+            <input
+              className="mb-4 border-b-2 p-4"
+              id="email"
+              name="email"
+              type="email"
+              required
+            />
+            <button
+              type="submit"
+              className="px-4 py-2 font-bold text-white bg-blue-500 rounded-full hover:bg-blue-700"
+            >
+              Participar
+            </button>
+          </form>
+        </div>
+      </div>
+      </form>
 
       <div className='items-center justify-center flex flex-wrap bg-orange-600 w-full p-4 gap-2'>
         <div className='flex flex-col p-12 w-full max-w-6xl gap-8'>
