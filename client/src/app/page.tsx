@@ -6,6 +6,8 @@ import normalabs from '../../public/normalabs.png'
 import normalabsbranco from '../../public/normalabs-branco-total.png'
 import equipe from '../../public/equipe.png'
 import analista from '../../public/analista.png'
+import programador from '../../public/programador.png'
+import qualidade from '../../public/qualidade.png'
 import rocket from '../../public/rocket.png'
 import prontos from '../../public/prontos.png'
 import { At, InstagramLogo, LinkedinLogo, MapPin, WhatsappLogo } from '@phosphor-icons/react'
@@ -87,7 +89,7 @@ export default function Home() {
             Nossos Desenvolvedores, ficam com a parte técnica do negócio, onde são responsáveis por tornar possível o que uma vez foi imaginado pelo cliente.
             </p>
             <div className='w-full flex'>
-              <Image src={equipe} alt='Nota 5' width={500} className='border' />
+              <Image src={programador} alt='Nota 5' width={500} className='border' />
             </div>
 
           </div>
@@ -105,7 +107,7 @@ export default function Home() {
             </div>
 
             <div className='flex items-center gap-8 flex-col sm:flex-row justify-around sm:justify-start'>
-              <Image src={analista} alt='Rocket' width={300} />
+              <Image src={qualidade} alt='Rocket' width={600} />
             </div>
           </div>
         </div>
