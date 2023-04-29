@@ -27,6 +27,9 @@ const Header = () => {
             <li className="mx-2">
               <a href="https://www.linkedin.com/company/normalabs-hub">LinkedIn</a>
             </li>
+            <li className="mx-2">
+              <a href="https://linktr.ee/normalabs">Linktree</a>
+            </li>
           </ul>
         </nav>
 
